@@ -1,0 +1,24 @@
+{
+  "name": "jwpro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yankiweiss/JWPro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/yankiweiss/JWPro/issues"
+  },
+  "homepage": "https://github.com/yankiweiss/JWPro#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
