@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #EEEEEE;
+    text-align: center;
+   
+}
+
+h1{
+    text-transform: capitalize;
+    color: 	#393E46;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+    font-size: 75px;
+    font-family: Manrope;
+    font-style: italic;
+ 
+}
+.work-flex {
+  display: flex;           /* put the cards next to each other            */
+  flex-wrap: wrap;         /* let them wrap on small screens              */
+  gap: 2rem;               /* space between cards                         */
+}
+
+/* “Card” for each site */
+.previous-work-site {
+  flex: 1 1 45%;           /* grow/shrink, start around 45 % width        */
+  display: flex;           /* vertically stack the heading + iframe       */
+  flex-direction: column;
+  min-width: 280px;   
+  background-color: rgb(230, 238, 240);   
+  padding: 25px;  /* keep it readable on narrow screens          */
+}
+
+.previous-work-site h1 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.previous-work-site iframe {
+  flex: 1;                 /* take up all remaining height in the card    */
+  min-height: 300px;       /* or set a fixed height if you prefer         */
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    text-align: center;
+    font-size: 75px;
+
+}
+.previos-work{
+    background-color: aqua;
+}
+
+
+
